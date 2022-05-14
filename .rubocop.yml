@@ -1,3 +1,6 @@
+require:
+  - rubocop-rails
+  
 Rails/FilePath:
   Exclude:
     - 'config/environments/development.rb'

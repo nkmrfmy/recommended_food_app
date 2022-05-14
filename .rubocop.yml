@@ -1,6 +1,6 @@
 require:
   - rubocop-rails
-  
+
 Rails/FilePath:
   Exclude:
     - 'config/environments/development.rb'
@@ -8,3 +8,14 @@ Rails/FilePath:
 Rails/Output:
   Exclude:
     - 'db/seeds.rb'
+
+Style/Documentation:
+  Exclude:
+    - 'app/helpers/application_helper.rb'
+    - 'app/models/application_record.rb'
+    - 'config/application.rb'
+    - 'db/migrate/20220514053050_devise_create_users.rb'
+
+Layout/LineLength:
+  Exclude:
+    - 'config/initializers/devise.rb'

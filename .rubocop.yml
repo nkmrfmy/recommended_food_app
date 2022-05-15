@@ -19,3 +19,6 @@ Style/Documentation:
 Layout/LineLength:
   Exclude:
     - 'config/initializers/devise.rb'
+
+AllCops:
+  NewCops: enable

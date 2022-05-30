@@ -15,10 +15,16 @@ Style/Documentation:
     - 'app/models/application_record.rb'
     - 'config/application.rb'
     - 'db/migrate/20220514053050_devise_create_users.rb'
+    - 'app/controllers/foods_controller.rb'
+    - 'db/migrate/20220523142742_create_foods.rb'
 
 Layout/LineLength:
   Exclude:
     - 'config/initializers/devise.rb'
+
+Rails/I18nLocaleTexts:
+  Exclude:
+    - 'app/controllers/foods_controller.rb'
 
 AllCops:
   NewCops: enable

@@ -4,5 +4,5 @@ ja:
       food: 料理
     attributes:
       food:
-        name: 名前
+        name: 料理名
         comment: コメント

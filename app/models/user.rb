@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class User < ApplicationRecord
-  has_many :food, dependent: :destroy
+  has_many :foods, dependent: :destroy
   devise :database_authenticatable, :registerable,
          :rememberable, :validatable
 end

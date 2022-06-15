@@ -10,7 +10,7 @@ class Food < ApplicationRecord
   mount_uploader :image, ImageUploader
 
   # foodをuserがいいねしているときはtrue,していないときはfalse
-  def liked_by?(_user)
-    likes.exists?(user_id: user.id)
+  def liked_by?(user)
+    likes.any? { |like| like.user_id == user.id }
   end
 end

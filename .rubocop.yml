@@ -19,6 +19,9 @@ Style/Documentation:
     - 'db/migrate/20220523142742_create_foods.rb'
     - 'app/uploaders/image_uploader.rb'
     - 'db/migrate/20220603113958_add_image_to_foods.rb'
+    - 'app/controllers/likes_controller.rb'
+    - 'app/models/food.rb'
+    - 'db/migrate/20220613142717_create_likes.rb'
 
 Layout/LineLength:
   Exclude:
@@ -27,6 +30,7 @@ Layout/LineLength:
 Rails/I18nLocaleTexts:
   Exclude:
     - 'app/controllers/foods_controller.rb'
+    - 'app/models/like.rb'
 
 AllCops:
   NewCops: enable
